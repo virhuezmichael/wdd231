@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Virhuez">
+    <meta name="description" content="WDD 231: Web Frontend Development I - Michael Virhuez - About me content page - week01">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/course.js"></script>
+    <script defer src="scripts/navigation.js"></script>
+    <title>WDD 231: Web Frontend Development I - Michael Virhuez</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <img class="profile-img" src="images/profile.jpg" alt="Michael Virhuez photo"/>
+            <span id="profileName">Michael Virhuez</span>
+          </div>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="" target="_blank">Chamber</a></li>
+                <li><a href="" target="_blank">Final</a></li>
+                <li><a href="https://github.com/virhuezmichael" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/walter-michael-virhuez/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="home">
+            <div class="CardConteiner">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <aside>
+                <h2>San Juan, Argentina</h2>
+                <figure>
+                    <img class="sanjuan-img" src="images/sanjuan.jpeg" alt="">
+                    <figcaption>Valle de la Luna</figcaption>
+                </figure>
+            </aside>
+        </section>
+        <section id="certificate" class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+            <div id="courseList" class="course-list"></div>
+            <p id="totalCredits">Total Credits: 0</p>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> ⚽ Michael Virhuez ⚽ San Juan, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
