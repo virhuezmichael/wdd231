@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "GreenTech Solutions",
+      "address": "123 Solar Ave, Sunville",
+      "phone": "555-123-4567",
+      "website": "https://greentech.example.com",
+      "image": "images/greentech-logo.jpeg",
+      "membershipLevel": 3,
+      "description": "Leaders in sustainable technology and renewable energy consulting."
+    },
+    {
+      "name": "BlueRiver Marketing",
+      "address": "456 Ocean Blvd, Seaside",
+      "phone": "555-234-5678",
+      "website": "https://bluerivermarketing.com",
+      "image": "images/blueriver-logo.png",
+      "membershipLevel": 2,
+      "description": "Helping businesses flow with fresh marketing strategies."
+    },
+    {
+      "name": "Summit Accounting",
+      "address": "789 Mountain Rd, Peak City",
+      "phone": "555-345-6789",
+      "website": "https://summitaccounting.biz",
+      "image": "images/summit-logo.png",
+      "membershipLevel": 1,
+      "description": "Accounting and tax services for local businesses and entrepreneurs."
+    },
+    {
+      "name": "Urban Bloom Florists",
+      "address": "321 Flower St, Bloomtown",
+      "phone": "555-456-7890",
+      "website": "https://urbanbloomflorists.com",
+      "image": "images/urbanbloom-logo.jpeg",
+      "membershipLevel": 1,
+      "description": "Fresh flowers and arrangements delivered daily throughout the city."
+    },
+    {
+      "name": "PixelForge Studios",
+      "address": "147 Creative Ln, Artvale",
+      "phone": "555-567-8901",
+      "website": "https://pixelforge.io",
+      "image": "images/pixelforge-logo.png",
+      "membershipLevel": 3,
+      "description": "Digital design and animation studio specializing in brand identity."
+    },
+    {
+      "name": "BrightPath Tutoring",
+      "address": "258 Learning Dr, Educity",
+      "phone": "555-678-9012",
+      "website": "https://brightpathtutoring.org",
+      "image": "images/brightpath-logo.png",
+      "membershipLevel": 2,
+      "description": "Personalized tutoring and academic support for students of all ages."
+    },
+    {
+      "name": "RapidFix IT Services",
+      "address": "369 Tech Park, Circuit Town",
+      "phone": "555-789-0123",
+      "website": "https://rapidfixit.com",
+      "image": "images/rapidfix-logo.png",
+      "membershipLevel": 1,
+      "description": "Quick and reliable computer and IT support for homes and businesses."
+    }
+  ]
+}

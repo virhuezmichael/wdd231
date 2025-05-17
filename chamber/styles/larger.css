@@ -1,0 +1,71 @@
+@media (min-width: 320px) {
+.top-bar {
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.nav-container {
+    padding-right: 1rem;
+}
+
+nav ul.menu {
+    position: static;
+    height: auto;
+    width: auto;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    background: transparent;
+    transition: none;
+}
+
+nav ul.menu li a {
+    font-size: 1.2rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.nav-container > nav {
+    order: 1;
+}
+
+.nav-container > .theme-button {
+    order: 2;
+}
+
+.view {
+    justify-content: center;
+    gap: 2rem;
+}
+
+.view img {
+    width: 45px;
+    height: 45px;
+}
+
+.grid {
+    display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    gap: 2rem;
+    align-items: center;
+}
+}

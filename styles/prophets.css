@@ -1,0 +1,16 @@
+#cards {
+    display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+header, h2, p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
