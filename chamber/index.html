@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Virhuez">
+    <meta name="description" content="WDD 231: Web Frontend Development I - Michael Virhuez - Chamber Directory Page">
+    <meta property="og:title" content="WDD 231: Web Frontend Development I - Michael Virhuez - Chamber Directory Page">
+    <meta property="og:description" content="Student project for WDD 231 showcasing a professional Chamber of Commerce website with business listings, events, and weather updates." />
+    <meta property="og:url" content="https://virhuezmichael.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://media.istockphoto.com/id/1460755337/es/foto/tema-de-color-blanco-oficina-de-estilo-moderno-con-piso-de-concreto-visto-y-mucha-planta.jpg?s=612x612&w=0&k=20&c=Q7j93yvaSzftZN4DTuhTAim2s1YT7s-PP8jyeqdRBDE=" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/members.js"></script>
+    <script defer src="scripts/view.js"></script>
+    <script defer src="scripts/weatherApiCall.js"></script>
+    <title>Vallverde Chamber of Commerce</title>
+</head>
+<body>
+   <header>
+        <div class="top-bar">
+            <img class="profile-img" src="images/cooperacion.png" alt="Michael Virhuez photo"/>
+            <span id="profileName">Vallverde</span>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span class="hamburger">&#9776;</span>
+                    <span class="close">&times;</span>
+                </label>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="" target="_blank">Discover</a></li>
+                    <li><a href="" target="_blank">Directory</a></li>
+                    <li><a href="" target="_blank">Join</a></li>
+                </ul>
+            </nav>
+            <div class="theme-button">
+                <img src="images/dark-mode.png" alt="theme icon button">
+            </div>
+        </div>
+    </header>
+    <main>
+        <figure class="hero-container">
+            <img class="hero-image" src="images/hero-image.jpeg" alt="hero image">
+            <button class="hero-button">Keynote Tickets</button>
+        </figure>
+        <div class="home">
+            <h1>Home</h1>
+            <section class="weather">
+                <article>
+                    <h2>Events</h2>
+                </article>
+                <article id="current-weather">
+                    <h2>Current Weather</h2>
+                </article>
+                <article id="weather-forecast">
+                    <h2>Weather Forecast</h2>
+                </article>
+            </section>
+            <section class="business">
+                <div class="view">
+                    <img id="grid" src="images/red.png" alt="grid view icon">
+                    <img id="list" src="images/lista.png" alt="list view icon">
+                </div>
+                <div id="cards" class="grid">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="siteinfo">
+            <p class="footer-title">Vallverde Chamber of Commerce</p>
+            <p>Av. Empresarios #456, Centro Comercial Valleverde</p>
+            <p>Valleverde, VV 78910, Countryland</p>
+            <p>info@valleverdechamber.org</p>
+            <p>+1 (555) 123-4567</p>
+        </section>
+        <section class="social">
+            <a href="https://facebook.com"><img class="social-icon" src="images/facebook.png" alt="youtube icon"></a>
+            <a href="https://youtube.com"><img class="social-icon" src="images/youtube.png" alt="twitter icon"></a>
+            <a href="https://linkedin.com"><img class="social-icon" src="images/linkedin.png" alt="linkein icon"></a>
+        </section>
+        <section class="myinfo">
+            <p>WDD231 Class Project</p>
+            <p>Michael Virhuez</p>
+            <p><span id="currentyear"></span> Vallverde Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+</body>
+</html>
