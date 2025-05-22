@@ -68,4 +68,18 @@ footer {
     gap: 2rem;
     align-items: center;
 }
+
+#member-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#member-highlights img {
+    width: 180px;
+    height: 100px;
+}
+
 }

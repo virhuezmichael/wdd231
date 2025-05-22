@@ -119,7 +119,7 @@ nav ul.menu {
   bottom: 10px;
   right: 10px;
   padding: 10px 20px;
-  background-color: #004E7C;
+  background-color:rgb(43, 171, 104);
   color: white;
   border: none;
   border-radius: 5px;
@@ -133,7 +133,8 @@ nav ul.menu {
 }
 
 article {
-    background-color:#F4A300;
+    background-color: rgba(244, 163, 0, 0.5);
+    padding-left: 10px;
 }
 
 .view {

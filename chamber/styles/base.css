@@ -59,7 +59,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-  background-color: #d98f00;
+  background-color:rgb(31, 160, 102);
 }
 
 section {
@@ -71,3 +71,29 @@ img {
   height: auto;
   display: block;
 }
+
+.highlight-card.gold {
+  background-color: #ffd700; 
+  color: #000; 
+}
+
+.highlight-card.silver {
+  background-color: #c0c0c0; 
+  color: #000;
+}
+
+.highlight-card {
+  border: 2px solid #444;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.highlight-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
