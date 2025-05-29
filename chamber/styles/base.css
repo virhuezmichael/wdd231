@@ -97,3 +97,7 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.highlight-card a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
