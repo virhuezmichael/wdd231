@@ -1,0 +1,24 @@
+{
+  "membership": [
+    {
+      "level": "Non Profit",
+      "price": 0,
+      "benefits": ["special events"]
+    },
+    {
+      "level": "Bronze",
+      "price": 100,
+      "benefits": ["special events","training"]
+    },
+    {
+      "level": "Silver",
+      "price": 250,
+      "benefits": ["special events","training", "advertising"]
+    },
+    {
+      "level": "Gold",
+      "price": 400,
+      "benefits": ["special events","training", "advertising", "event discounts"]
+    }
+  ]
+}

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Virhuez">
-    <meta name="description" content="WDD 231: Web Frontend Development I - Michael Virhuez - Home Page">
-    <meta property="og:title" content="WDD 231: Web Frontend Development I - Michael Virhuez - Home Page">
+    <meta name="description" content="WDD 231: Web Frontend Development I - Michael Virhuez - Join Page">
+    <meta property="og:title" content="WDD 231: Web Frontend Development I - Michael Virhuez - Join Page">
     <meta property="og:description" content="Student project for WDD 231 showcasing a professional Chamber of Commerce website with business listings, events, and weather updates." />
     <meta property="og:url" content="https://virhuezmichael.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://media.istockphoto.com/id/1460755337/es/foto/tema-de-color-blanco-oficina-de-estilo-moderno-con-piso-de-concreto-visto-y-mucha-planta.jpg?s=612x612&w=0&k=20&c=Q7j93yvaSzftZN4DTuhTAim2s1YT7s-PP8jyeqdRBDE=" />
@@ -22,10 +22,11 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
     <link rel="icon" href="images/favicon.ico">
     <script defer src="scripts/date.js"></script>
-    <script defer src="scripts/highlights.js"></script>
-    <script defer src="scripts/weatherApiCall.js"></script>
+    <script defer src="scripts/join.js"></script>
+    <script defer src="scripts/membershipCard.js"></script>
     <title>Vallverde Chamber of Commerce</title>
 </head>
 <body>
@@ -42,10 +43,10 @@
                     <span class="close">&times;</span>
                 </label>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="" target="_blank">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Join</a></li>
                 </ul>
             </nav>
             <div class="theme-button">
@@ -58,23 +59,63 @@
             <img class="hero-image" src="images/hero-image.webp" alt="hero image">
             <button class="hero-button">Keynote Tickets</button>
         </figure>
-        <div class="home">
-            <h1>Home</h1>
-            <section class="weather">
-                <article>
-                    <h2>Events</h2>
-                </article>
-                <article id="current-weather">
-                    <h2>Current Weather</h2>
-                </article>
-                <article id="weather-forecast">
-                    <h2>Weather Forecast</h2>
-                </article>
-            </section>
-            <section class="highlights">
-                <h2>Member Highlights</h2>
-                <div id="member-highlights"></div>
-            </section>
+        <div class="content">
+        <section class="join-form">
+            <h2>Join the Vallverde Chamber of Commerce</h2>
+            <form method="get" action="thankyou.html">
+                <div class="name-group">
+                <div class="form-row">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" title="Enter your first name" autocomplete="given-name" required>
+                </div>
+                <div class="form-row">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" title="Enter your last name" autocomplete="family-name" required>
+                </div>
+                </div>
+
+                <div class="form-row">
+                <label for="organizationTitle">Organization Title:</label>
+                <input type="text" id="organizationTitle" name="organizationTitle" title="Enter your organizational title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" required>
+                </div>
+
+                <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-row">
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" autocomplete="tel" required>
+                </div>
+
+                <div class="form-row">
+                <label for="organization">Organization Name:</label>
+                <input type="text" id="organization" name="organization" title="Enter the name of your organization" autocomplete="organization" required>
+                </div>
+
+                <div class="form-row">
+                <label for="membership">Membership Level:</label>
+                <select id="membership" name="membership" title="Select a membership level" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="np">NP (Non-Profit - Free)</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+                </div>
+
+                <div class="form-row">
+                <label for="description">Organization Description:</label>
+                <textarea id="description" name="description" title="Describe your organization"></textarea>
+                </div>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" value="Join Now">
+            </form>
+        </section>
+        <div id="cards"></div>
         </div>
     </main>
     <footer>
