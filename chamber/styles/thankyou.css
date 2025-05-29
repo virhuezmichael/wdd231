@@ -1,0 +1,24 @@
+.thankyou-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.thankyou-message h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.submitted-info {
+  list-style: none;
+  padding: 0;
+}
+
+.submitted-info li {
+  margin: 0.5rem 0;
+  background-color: #f4f4f4;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
