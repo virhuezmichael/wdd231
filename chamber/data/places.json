@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Sunset Park",
+    "address": "123 Sunshine Ave, Cityville",
+    "description": "A peaceful park with scenic sunset views and walking trails.",
+    "image": "images/sunset-park.webp"
+  },
+  {
+    "title": "City Museum",
+    "address": "456 History Rd, Cityville",
+    "description": "Explore the rich history and culture of the region.",
+    "image": "images/city-museum.webp"
+  },
+  {
+    "title": "Downtown Market",
+    "address": "789 Market St, Cityville",
+    "description": "Local produce, crafts, and weekend music performances.",
+    "image": "images/downtown-market.webp"
+  },
+  {
+    "title": "Riverwalk Trail",
+    "address": "321 Riverbend Dr, Cityville",
+    "description": "A scenic trail along the river, ideal for biking and jogging.",
+    "image": "images/riverwalk-trail.webp"
+  },
+  {
+    "title": "Art Center",
+    "address": "654 Canvas Ln, Cityville",
+    "description": "Workshops, exhibitions, and community art projects.",
+    "image": "images/art-center.webp"
+  },
+  {
+    "title": "Tech Innovation Hub",
+    "address": "987 Silicon Blvd, Cityville",
+    "description": "Home to startups and tech companies promoting innovation.",
+    "image": "images/tech-hub.webp"
+  },
+  {
+    "title": "Green Valley Winery",
+    "address": "147 Vineyard Way, Cityville",
+    "description": "Award-winning local wines and scenic vineyard tours.",
+    "image": "images/winery.webp"
+  },
+  {
+    "title": "Skyline Tower",
+    "address": "258 Horizon St, Cityville",
+    "description": "The tallest building in the area with an observation deck.",
+    "image": "images/skyline-tower.webp"
+  }
+]
