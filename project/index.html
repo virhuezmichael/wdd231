@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Virhuez">
+    <meta name="description" content="WDD 231: Web Frontend Development I - Michael Virhuez - Final Project">
+    <meta property="og:title" content="WDD 231: Web Frontend Development I - Michael Virhuez - Final Project">
+    <meta property="og:description" content="Final project for the WDD131 class, development of an Introduction to Bioinformatics website made with HTML, CSS, and JS." />
+    <meta property="og:url" content="https://virhuezmichael.github.io/wdd131/project/index.html">
+    <meta property="og:image" content="https://www.cualesmiip.com/media/cualesmiip/image/noticias/25571_Foto.1742628176.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'">
+    <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </noscript>
+  <title>Introduction to Bioinformatics</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+    <div class="top-bar">
+            <img class="brand-img" src="images/brand1.png" alt="logo image" loading="lazy"/>
+            <span id="profileName">Intro to Bioinformatics</span>
+    </div>
+    <div class="nav-container">
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="hamburger">&#9776;</span>
+                <span class="close">&times;</span>
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="analyzer.html">Analyzer</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <main>
+    <figure class="hero-container">
+            <img class="hero-image" src="images/dna-hero.webp" alt="hero image">
+    </figure>
+    <section class="grid">
+      <section class="home-card1">
+      <h2>What is Bioinformatics?</h2>
+      <p>Bioinformatics is an interdisciplinary field that combines biology, computer science, and mathematics to analyze and interpret biological data. It plays a crucial role in genomics, drug development, and understanding genetic diseases.</p>
+
+      <h3>Applications</h3>
+      <ul>
+        <li>Gene sequencing and annotation</li>
+        <li>Protein structure prediction</li>
+        <li>Evolutionary biology and phylogenetics</li>
+        <li>Precision medicine and diagnostics</li>
+      </ul>
+      </section>
+      <section class="home-card2">
+        <h2>Tools</h2>
+        <p>Explore a collection of tools designed to simplify specific tasks, automate processes, or quickly provide useful information. Each tool includes a brief description and a direct link for easy access.</p>
+        <button onclick="location.href='tools.html'">Go to Tools</button>
+      </section>
+      <section class="home-card3">
+        <h2>Sequence Analyzer</h2>
+        <p>Use this section to analyze data, text, or other inputs. The analyzer provides detailed results based on your input, helping you make informed decisions or streamline your workflow.</p>
+        <button onclick="location.href='analyzer.html'">Go to Analyzer</button>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Intro to Bioinformatics - WDD131 Class Project - Michael Virhuez</p>
+    <section class="social">
+      <a href="https://facebook.com"><img class="social-icon" src="images/facebook.webp" alt="youtube icon"></a>
+      <a href="https://youtube.com"><img class="social-icon" src="images/youtube.webp" alt="twitter icon"></a>
+      <a href="https://linkedin.com"><img class="social-icon" src="images/linkedin.webp" alt="linkein icon"></a>
+    </section>
+  </footer>
+</body>
+</html>
