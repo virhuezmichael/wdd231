@@ -1,0 +1,94 @@
+{
+  "tools": [
+    {
+      "name": "BLAST",
+      "description": "Basic Local Alignment Search Tool – finds regions of similarity between sequences.",
+      "link": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+      "category": "Sequence Alignment"
+    },
+    {
+      "name": "Biopython",
+      "description": "Python library for computational biology and bioinformatics.",
+      "link": "https://biopython.org/",
+      "category": "Bioinformatics Programming"
+    },
+    {
+      "name": "R",
+      "description": "A statistical programming language widely used in bioinformatics.",
+      "link": "https://www.r-project.org/",
+      "category": "Statistical Computing"
+    },
+    {
+      "name": "Galaxy",
+      "description": "Web-based platform for accessible, reproducible, and transparent bioinformatics.",
+      "link": "https://usegalaxy.org/",
+      "category": "Workflow Management"
+    },
+    {
+      "name": "Clustal Omega",
+      "description": "Multiple sequence alignment tool for proteins and nucleotides.",
+      "link": "https://www.ebi.ac.uk/Tools/msa/clustalo/",
+      "category": "Sequence Alignment"
+    },
+    {
+      "name": "MEGA",
+      "description": "Software for conducting statistical analysis of molecular evolution.",
+      "link": "https://www.megasoftware.net/",
+      "category": "Phylogenetics"
+    },
+    {
+      "name": "UCSC Genome Browser",
+      "description": "Provides a visualization tool for exploring genomes.",
+      "link": "https://genome.ucsc.edu/",
+      "category": "Genomics"
+    },
+    {
+      "name": "Ensembl",
+      "description": "Genome browser for vertebrate genomes.",
+      "link": "https://www.ensembl.org/",
+      "category": "Genomics"
+    },
+    {
+      "name": "MAFFT",
+      "description": "Fast multiple sequence alignment program.",
+      "link": "https://mafft.cbrc.jp/alignment/software/",
+      "category": "Sequence Alignment"
+    },
+    {
+      "name": "IGV",
+      "description": "Integrative Genomics Viewer for interactive exploration of large-scale genomic data.",
+      "link": "https://software.broadinstitute.org/software/igv/",
+      "category": "Genomics Visualization"
+    },
+    {
+      "name": "FASTQC",
+      "description": "A quality control tool for high throughput sequence data.",
+      "link": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+      "category": "Quality Control"
+    },
+    {
+      "name": "Bowtie",
+      "description": "Ultrafast, memory-efficient short read aligner.",
+      "link": "http://bowtie-bio.sourceforge.net/index.shtml",
+      "category": "Read Alignment"
+    },
+    {
+      "name": "SAMtools",
+      "description": "Tools for manipulating alignments in SAM/BAM format.",
+      "link": "http://www.htslib.org/",
+      "category": "Data Processing"
+    },
+    {
+      "name": "GATK",
+      "description": "Genome Analysis Toolkit for variant discovery in high-throughput sequencing data.",
+      "link": "https://gatk.broadinstitute.org/",
+      "category": "Variant Calling"
+    },
+    {
+      "name": "Cytoscape",
+      "description": "Software for visualizing complex networks and integrating these with any type of attribute data.",
+      "link": "https://cytoscape.org/",
+      "category": "Network Analysis"
+    }
+  ]
+}

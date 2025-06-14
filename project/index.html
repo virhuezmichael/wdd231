@@ -21,7 +21,7 @@
     </noscript>
   <title>Introduction to Bioinformatics</title>
   <link rel="stylesheet" href="styles/style.css" />
-  <script defer src="script.js"></script>
+  <script defer src="scripts/modal.js"></script>
 </head>
 <body>
     <header>
@@ -62,6 +62,24 @@
         <li>Evolutionary biology and phylogenetics</li>
         <li>Precision medicine and diagnostics</li>
       </ul>
+      <button id="openModalBtn">More info</button>
+
+      <!-- Modal -->
+      <div id="bioModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>More about Bioinformatics</h2>
+          <p>
+            Bioinformatics integrates data from genomics, proteomics, and other
+            biological fields to gain deeper insights into complex biological
+            systems. It involves tools for sequence alignment, molecular modeling,
+            systems biology, and more. With the rise of big data in biology,
+            bioinformatics is essential for storing, retrieving, and analyzing
+            massive datasets efficiently.
+          </p>
+        </div>
+      </div>
+
       </section>
       <section class="home-card2">
         <h2>Tools</h2>
@@ -83,6 +101,7 @@
       <a href="https://youtube.com"><img class="social-icon" src="images/youtube.webp" alt="twitter icon"></a>
       <a href="https://linkedin.com"><img class="social-icon" src="images/linkedin.webp" alt="linkein icon"></a>
     </section>
+    <p>link video here</p>
   </footer>
 </body>
 </html>
