@@ -55,6 +55,12 @@ footer {
     height: 40px;
 }
 
+.videolink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
 /* ============================== */
 /* Section: Navigation - Top bar  */
 /* ============================== */
